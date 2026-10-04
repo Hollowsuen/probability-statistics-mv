@@ -1,0 +1,49 @@
+{
+  "narration": {
+    "frames": 36288000,
+    "duration_seconds": 756.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_peak": 0.6800000667572021,
+    "sample_peak_dbfs": -3.3498208931610653,
+    "rms": 0.05663715136702755,
+    "rms_dbfs": -24.937971962542385,
+    "clipped_samples": 0
+  },
+  "music": {
+    "frames": 36288000,
+    "duration_seconds": 756.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_peak": 0.5156669616699219,
+    "sample_peak_dbfs": -5.752613851372315,
+    "rms": 0.04164599881086391,
+    "rms_dbfs": -27.608534352291873,
+    "clipped_samples": 0
+  },
+  "master": {
+    "frames": 36288000,
+    "duration_seconds": 756.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_peak": 0.8712544441223145,
+    "sample_peak_dbfs": -1.1970998725042072,
+    "rms": 0.10919834878314097,
+    "rms_dbfs": -19.235678573246897,
+    "clipped_samples": 0
+  },
+  "loudnorm": {
+    "input_i": "-21.01",
+    "input_tp": "-2.60",
+    "input_lra": "6.30",
+    "input_thresh": "-31.35",
+    "output_i": "-16.53",
+    "output_tp": "-1.20",
+    "output_lra": "5.40",
+    "output_thresh": "-26.83",
+    "normalization_type": "dynamic",
+    "target_offset": "0.03"
+  },
+  "master_music_gain": 0.75,
+  "all_84_lines": true
+}

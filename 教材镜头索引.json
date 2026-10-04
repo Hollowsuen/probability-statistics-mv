@@ -1,0 +1,1232 @@
+{
+  "film_scene_count": 42,
+  "film_duration_seconds": 756,
+  "books": [
+    {
+      "id": "chen",
+      "title": "概率统计讲义",
+      "edition": "第三版",
+      "authors": [
+        "陈家鼎",
+        "刘婉如",
+        "汪仁官"
+      ],
+      "publisher": "高等教育出版社",
+      "year_month": "2004-05",
+      "isbn": "7-04-014404-2",
+      "pdf_pages": 463,
+      "title_page_pdf": 3,
+      "copyright_page_pdf": 4,
+      "contents_pdf_pages": [
+        9,
+        10,
+        11
+      ],
+      "printed_to_pdf_offset": 11,
+      "offset_scope": "正文；目录与末尾空白页不用此换算",
+      "verification": "标题页、版权页及三页目录已渲染视觉核验；章节定位来自PDF书签并由目录印刷页码互证",
+      "chapters": [
+        {
+          "title": "第一章 随机事件与概率",
+          "pdf_page": 12,
+          "printed_page": 1
+        },
+        {
+          "title": "第二章 随机变量与概率分布",
+          "pdf_page": 58,
+          "printed_page": 47
+        },
+        {
+          "title": "第三章 随机变量的数字特征",
+          "pdf_page": 87,
+          "printed_page": 76
+        },
+        {
+          "title": "第四章 随机向量",
+          "pdf_page": 112,
+          "printed_page": 101
+        },
+        {
+          "title": "第五章 统计估值",
+          "pdf_page": 169,
+          "printed_page": 158
+        },
+        {
+          "title": "第六章 假设检验",
+          "pdf_page": 222,
+          "printed_page": 211
+        },
+        {
+          "title": "第七章 回归分析方法",
+          "pdf_page": 284,
+          "printed_page": 273
+        },
+        {
+          "title": "第八章 正交试验法",
+          "pdf_page": 322,
+          "printed_page": 311
+        },
+        {
+          "title": "第九章 统计决策与贝叶斯统计大意",
+          "pdf_page": 365,
+          "printed_page": 354
+        },
+        {
+          "title": "第十章 随机过程初步",
+          "pdf_page": 393,
+          "printed_page": 382
+        }
+      ]
+    },
+    {
+      "id": "mao",
+      "title": "概率论与数理统计教程",
+      "edition": "第四版",
+      "authors": [
+        "茆诗松",
+        "程依明",
+        "濮晓龙",
+        "倪葎"
+      ],
+      "publisher": "高等教育出版社",
+      "year_month": "2026-02",
+      "isbn": "978-7-04-066576-5",
+      "pdf_pages": 478,
+      "title_page_pdf": 3,
+      "copyright_page_pdf": 4,
+      "contents_pdf_pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "printed_to_pdf_offset": 16,
+      "offset_scope": "正文；前言和目录不用此换算",
+      "verification": "标题页、版权页已渲染视觉核验；正文可提取文字，章节定位来自PDF书签；PDF元数据缺少作者濮晓龙且OCR常将茆误作茄、葎误作蓿，署名必须用视觉核验的标题页",
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "随机事件与概率",
+          "pdf_page": 17,
+          "printed_page": 1
+        },
+        {
+          "chapter": 2,
+          "title": "随机变量及其分布",
+          "pdf_page": 69,
+          "printed_page": 53
+        },
+        {
+          "chapter": 3,
+          "title": "多维随机变量及其分布",
+          "pdf_page": 140,
+          "printed_page": 124
+        },
+        {
+          "chapter": 4,
+          "title": "大数定律与中心极限定理",
+          "pdf_page": 202,
+          "printed_page": 186
+        },
+        {
+          "chapter": 5,
+          "title": "统计量及其分布",
+          "pdf_page": 239,
+          "printed_page": 223
+        },
+        {
+          "chapter": 6,
+          "title": "参数估计",
+          "pdf_page": 281,
+          "printed_page": 265
+        },
+        {
+          "chapter": 7,
+          "title": "假设检验",
+          "pdf_page": 330,
+          "printed_page": 314
+        },
+        {
+          "chapter": 8,
+          "title": "方差分析与回归分析",
+          "pdf_page": 388,
+          "printed_page": 372
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "以上为教材知识定位与原创演示的数学约束；并非复制原书具体习题。",
+    "PDF页码按阅读器从1开始；正文印刷页=陈书PDF页−11、茆书PDF页−16。",
+    "书目、目录、CLT、CI、p值等重点有正文/视觉双重核验；其他为目录/书签章节定位，不冒称逐页全文审阅。"
+  ],
+  "scenes": [
+    {
+      "scene_index": 0,
+      "title": "随机之美",
+      "start_seconds": 0,
+      "end_seconds": 18,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "第一章 随机事件与概率",
+          "pdf_page": 12,
+          "printed_page": 1,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.1 随机事件及其运算",
+          "pdf_page": 17,
+          "printed_page": 1,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "世界中的随机现象为教学示意。",
+      "onscreen_formula": "概率统计 · 一部关于不确定性的视觉诗"
+    },
+    {
+      "scene_index": 1,
+      "title": "一枚硬币，两种未来",
+      "start_seconds": 18,
+      "end_seconds": 36,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§1 随机事件及其概率",
+          "pdf_page": 12,
+          "printed_page": 1,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.2 概率的定义及其确定方法",
+          "pdf_page": 26,
+          "printed_page": 10,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "公平独立投币模型；频率并非每步趋近概率。",
+      "onscreen_formula": "单次结果未知  /  重复试验可以研究"
+    },
+    {
+      "scene_index": 2,
+      "title": "把可能性，完整地展开",
+      "start_seconds": 36,
+      "end_seconds": 54,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§2 古典概型",
+          "pdf_page": 16,
+          "printed_page": 5,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.2 概率的定义及其确定方法",
+          "pdf_page": 26,
+          "printed_page": 10,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "一颗公平骰子六个基本结果等可能；偶数事件={2,4,6}，概率1/2。",
+      "onscreen_formula": "Ω = {1, 2, 3, 4, 5, 6}      P(偶数) = 3/6"
+    },
+    {
+      "scene_index": 3,
+      "title": "事件，在集合里相遇",
+      "start_seconds": 54,
+      "end_seconds": 72,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§3 事件的运算及概率的加法公式",
+          "pdf_page": 22,
+          "printed_page": 11,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.1 随机事件及其运算",
+          "pdf_page": 17,
+          "printed_page": 1,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "并集需减去交集；互斥≠独立。",
+      "onscreen_formula": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+    },
+    {
+      "scene_index": 4,
+      "title": "知道更多，世界就变小",
+      "start_seconds": 72,
+      "end_seconds": 90,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§5 条件概率、乘法公式、独立性",
+          "pdf_page": 36,
+          "printed_page": 25,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.4 条件概率",
+          "pdf_page": 51,
+          "printed_page": 35,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "P(A|B)=P(AB)/P(B)，P(B)>0；区分有放回与不放回。",
+      "onscreen_formula": "P(A | B) = P(A ∩ B) / P(B)     ·     P(B) > 0"
+    },
+    {
+      "scene_index": 5,
+      "title": "贝叶斯：让证据改变判断",
+      "start_seconds": 90,
+      "end_seconds": 108,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§6 全概公式与逆概公式",
+          "pdf_page": 43,
+          "printed_page": 32,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.4 条件概率",
+          "pdf_page": 51,
+          "printed_page": 35,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "1万件、次品率1%、检出99%、误报5%：预计报警594，次品99，后验1/6。",
+      "onscreen_formula": "99 / (99 + 495) = 1/6 ≈ 16.7%    ·    模型期望数量"
+    },
+    {
+      "scene_index": 6,
+      "title": "互不打扰，叫作独立",
+      "start_seconds": 108,
+      "end_seconds": 126,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§5 条件概率、乘法公式、独立性",
+          "pdf_page": 36,
+          "printed_page": 25,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.5 独立性",
+          "pdf_page": 61,
+          "printed_page": 45,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "独立使P(AB)=P(A)P(B)；时间顺序不能证明独立。",
+      "onscreen_formula": "P(A ∩ B) = P(A)P(B)    ·    独立不等于互斥"
+    },
+    {
+      "scene_index": 7,
+      "title": "计数，是概率的地基",
+      "start_seconds": 126,
+      "end_seconds": 144,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "附录一 排列与组合",
+          "pdf_page": 416,
+          "printed_page": 405,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "1.2 概率的定义及其确定方法",
+          "pdf_page": 26,
+          "printed_page": 10,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "C(5,2)=10，不计选出顺序；若有序为20。",
+      "onscreen_formula": "C(5, 2) = 10    ·    无放回，不计顺序"
+    },
+    {
+      "scene_index": 8,
+      "title": "把偶然，变成一个数",
+      "start_seconds": 144,
+      "end_seconds": 162,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§1 随机变量",
+          "pdf_page": 58,
+          "printed_page": 47,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.1 随机变量及其分布",
+          "pdf_page": 69,
+          "printed_page": 53,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "随机变量是结果到实数的映射；同个值可对应多个结果。",
+      "onscreen_formula": "X : Ω → ℝ    ·    从结果到数值"
+    },
+    {
+      "scene_index": 9,
+      "title": "一次成功，与十次尝试",
+      "start_seconds": 162,
+      "end_seconds": 180,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "1§7 独立试验序列概型",
+          "pdf_page": 52,
+          "printed_page": 41,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.4 常用离散分布",
+          "pdf_page": 97,
+          "printed_page": 81,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "固定n、独立、同成功概率p；X是成功次数。",
+      "onscreen_formula": "X ∼ Bin(10, 0.3)     P(X=k) = C(10,k) 0.3ᵏ 0.7¹⁰⁻ᵏ"
+    },
+    {
+      "scene_index": 10,
+      "title": "泊松：数一数，发生了几次",
+      "start_seconds": 180,
+      "end_seconds": 198,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§2 离散型随机变量",
+          "pdf_page": 61,
+          "printed_page": 50,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.4 常用离散分布",
+          "pdf_page": 97,
+          "printed_page": 81,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "λ为固定时窗期望次数；到站是恒定速率模型示意。",
+      "onscreen_formula": "N ∼ Poisson(λ)     ·     此处 λ = 4 次 / 时间窗"
+    },
+    {
+      "scene_index": 11,
+      "title": "下一次到来，还要多久",
+      "start_seconds": 198,
+      "end_seconds": 216,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§3 连续型随机变量",
+          "pdf_page": 68,
+          "printed_page": 57,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.5 常用连续分布",
+          "pdf_page": 109,
+          "printed_page": 93,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "指数参数标rate λ：均值1/λ，生存e^(−λt)。",
+      "onscreen_formula": "T ∼ Exp(λ)     P(T>s+t | T>s) = P(T>t)"
+    },
+    {
+      "scene_index": 12,
+      "title": "在一段区间里，同样可能",
+      "start_seconds": 216,
+      "end_seconds": 234,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§3 连续型随机变量",
+          "pdf_page": 68,
+          "printed_page": 57,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.5 常用连续分布",
+          "pdf_page": 109,
+          "printed_page": 93,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "U(a,b)密度1/(b−a)，面积1；密度允许>1。",
+      "onscreen_formula": "X ∼ U(0,10)     P(2≤X≤5) = (5−2)/10 = 0.3"
+    },
+    {
+      "scene_index": 13,
+      "title": "误差，画出一座钟形山",
+      "start_seconds": 234,
+      "end_seconds": 252,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§3 连续型随机变量",
+          "pdf_page": 68,
+          "printed_page": 57,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.5 常用连续分布",
+          "pdf_page": 109,
+          "printed_page": 93,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "N(μ,σ²)第二参数为方差；不宣称所有数据正态。",
+      "onscreen_formula": "X ∼ N(μ, σ²)     ·     中心 μ，尺度 σ"
+    },
+    {
+      "scene_index": 14,
+      "title": "分布函数：把概率积起来",
+      "start_seconds": 252,
+      "end_seconds": 270,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§4 分布函数与随机变量函数的分布",
+          "pdf_page": 75,
+          "printed_page": 64,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.1 随机变量及其分布",
+          "pdf_page": 69,
+          "printed_page": 53,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "F(x)=P(X≤x)；非降、右连续、左右极限0与1。",
+      "onscreen_formula": "F(x) = P(X ≤ x)     ·     非减、右连续"
+    },
+    {
+      "scene_index": 15,
+      "title": "变换，会重新分配密度",
+      "start_seconds": 270,
+      "end_seconds": 288,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "2§4 分布函数与随机变量函数的分布",
+          "pdf_page": 75,
+          "printed_page": 64,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.6 随机变量函数的分布",
+          "pdf_page": 125,
+          "printed_page": 109,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "X~U(0,1),Y=X²，则F_Y(y)=√y，0≤y≤1；相同概率质量经变换，密度需考虑压缩/拉伸。",
+      "onscreen_formula": "X ∼ U(0,1), Y=X²     →     Fᵧ(y)=√y  (0≤y≤1)"
+    },
+    {
+      "scene_index": 16,
+      "title": "两个变量，共同描绘世界",
+      "start_seconds": 288,
+      "end_seconds": 306,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "4§1 随机向量的(联合)分布与边缘分布",
+          "pdf_page": 113,
+          "printed_page": 102,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "3.1 多维随机变量及其联合分布",
+          "pdf_page": 140,
+          "printed_page": 124,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "总概率归一；二维密度下面体积才是概率。",
+      "onscreen_formula": "pᵢⱼ = P(X=xᵢ, Y=yⱼ)     ·     ΣᵢΣⱼ pᵢⱼ = 1"
+    },
+    {
+      "scene_index": 17,
+      "title": "从整体，到局部",
+      "start_seconds": 306,
+      "end_seconds": 324,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "4§1 随机向量的(联合)分布与边缘分布",
+          "pdf_page": 113,
+          "printed_page": 102,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "3.2 边际分布与随机变量的独立性",
+          "pdf_page": 151,
+          "printed_page": 135,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "边缘是对另一维积分/求和，不是取最大值。",
+      "onscreen_formula": "pₓ(xᵢ)=Σⱼpᵢⱼ     ·     pᵧ|ₓ(yⱼ|xᵢ)=pᵢⱼ/pₓ(xᵢ)"
+    },
+    {
+      "scene_index": 18,
+      "title": "相关，是一种关系的影子",
+      "start_seconds": 324,
+      "end_seconds": 342,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "4§3 随机向量的数字特征",
+          "pdf_page": 139,
+          "printed_page": 128,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "3.4 多维随机变量的特征数",
+          "pdf_page": 170,
+          "printed_page": 154,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "零相关不推出独立；X对称、Y=X²即例。相关不证明因果。",
+      "onscreen_formula": "Cov(X,Y)=0  ≠  独立    ·    例：对称 X 与 Y=X²"
+    },
+    {
+      "scene_index": 19,
+      "title": "期望：概率的重心",
+      "start_seconds": 342,
+      "end_seconds": 360,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "3§1 离散型随机变量的期望",
+          "pdf_page": 87,
+          "printed_page": 76,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.2 随机变量的数学期望",
+          "pdf_page": 83,
+          "printed_page": 67,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "离散取值1..5，概率(.1,.2,.4,.2,.1)，期望3；一般期望不一定是可能取值。",
+      "onscreen_formula": "E[X] = Σ xᵢpᵢ     ·     连续情形用积分"
+    },
+    {
+      "scene_index": 20,
+      "title": "相同的中心，不同的分散",
+      "start_seconds": 360,
+      "end_seconds": 378,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "3§4 方差及其简单性质",
+          "pdf_page": 101,
+          "printed_page": 90,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "2.3 随机变量的方差与标准差",
+          "pdf_page": 92,
+          "printed_page": 76,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "Var=E[(X−μ)²]，单位平方；标准差与X同单位。",
+      "onscreen_formula": "Var(X) = E[(X−E[X])²]     ·     σ = √Var(X)"
+    },
+    {
+      "scene_index": 21,
+      "title": "相加，让分布重新生长",
+      "start_seconds": 378,
+      "end_seconds": 396,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "4§2 两个随机变量的函数的分布",
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "3.3 多维随机变量函数的分布",
+          "pdf_page": 159,
+          "printed_page": 143,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "两个独立公平骰子相加，和2..12的概率按(1,2,3,4,5,6,5,4,3,2,1)/36；必须注明独立。",
+      "onscreen_formula": "P(X+Y=s) = Σₖ P(X=k)P(Y=s−k)    ·    X,Y 独立"
+    },
+    {
+      "scene_index": 22,
+      "title": "大数定律：次数，长出稳定",
+      "start_seconds": 396,
+      "end_seconds": 414,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "4§6 大数定律和中心极限定理；定理6.1",
+          "pdf_page": 165,
+          "printed_page": 154,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "4.3 大数定律",
+          "pdf_page": 218,
+          "printed_page": 202,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "频率趋概率；不是每步更近，也不是下次补偿。",
+      "onscreen_formula": "X̄ₙ → μ（依概率）    ·    此处为独立公平硬币试验"
+    },
+    {
+      "scene_index": 23,
+      "title": "中心极限定理：尺度中的统一",
+      "start_seconds": 414,
+      "end_seconds": 432,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "4§6 定理6.2",
+          "pdf_page": 166,
+          "printed_page": 155,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "4.4.2 林德伯格-莱维中心极限定理",
+          "pdf_page": 228,
+          "printed_page": 212,
+          "evidence": "正文提取/渲染核验"
+        }
+      ],
+      "accuracy_guardrail": "iid且有限非零方差；标准化均值√n(X̄−μ)/σ趋N(0,1)。",
+      "onscreen_formula": "√n (X̄ₙ−μ)/σ ⇒ N(0,1)    ·    i.i.d.，0<σ²<∞"
+    },
+    {
+      "scene_index": 24,
+      "title": "换一个频率，看见同一分布",
+      "start_seconds": 432,
+      "end_seconds": 450,
+      "sources": [
+        {
+          "book_id": "mao",
+          "section": "4.2 特征函数",
+          "pdf_page": 208,
+          "printed_page": 192,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "4.2.1 定义4.2.1",
+          "pdf_page": 209,
+          "printed_page": 193,
+          "evidence": "正文提取/渲染核验"
+        }
+      ],
+      "accuracy_guardrail": "φ_X(t)=E[e^(itX)]，φ(0)=1，|φ|≤1；与矩母函数不同，始终存在。",
+      "onscreen_formula": "φₓ(t) = E[eⁱᵗˣ]     ·     独立和的特征函数相乘"
+    },
+    {
+      "scene_index": 25,
+      "title": "用随机，计算一个常数",
+      "start_seconds": 450,
+      "end_seconds": 468,
+      "sources": [
+        {
+          "book_id": "mao",
+          "section": "4.3.1 蒙特卡罗随机投点法",
+          "pdf_page": 220,
+          "printed_page": 204,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "4.3 例4.3.4 蒙特卡罗平均值法",
+          "pdf_page": 224,
+          "printed_page": 208,
+          "evidence": "正文提取/渲染核验"
+        }
+      ],
+      "accuracy_guardrail": "均匀独立投点；4×圆内比例估π；精度不保证随每个样本单调改进。",
+      "onscreen_formula": "π ≈ 4 × 圆内点数 / 总点数    ·    独立均匀投点"
+    },
+    {
+      "scene_index": 26,
+      "title": "从一小部分，认识整体",
+      "start_seconds": 468,
+      "end_seconds": 486,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "5§1 总体与样本",
+          "pdf_page": 169,
+          "printed_page": 158,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "5.1 总体与样本",
+          "pdf_page": 239,
+          "printed_page": 223,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "样本量大不能消除选择偏差。",
+      "onscreen_formula": "目标总体 → 抽样机制 → 样本    ·    先问样本怎么来"
+    },
+    {
+      "scene_index": 27,
+      "title": "样本，凝结成统计量",
+      "start_seconds": 486,
+      "end_seconds": 504,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "5§4 期望与方差的点估计",
+          "pdf_page": 190,
+          "printed_page": 179,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "5.2 样本矩及其分布",
+          "pdf_page": 245,
+          "printed_page": 229,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "样本6、8、10、12、14的均值10，离均差平方和40，除n−1=4得样本方差10。",
+      "onscreen_formula": "x̄ = 10     s² = Σ(xᵢ−x̄)²/(n−1) = 10"
+    },
+    {
+      "scene_index": 28,
+      "title": "似然：哪个参数更能解释数据",
+      "start_seconds": 504,
+      "end_seconds": 522,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "5§3 最大似然估计法",
+          "pdf_page": 183,
+          "printed_page": 172,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "6.3 最大似然估计与EM算法",
+          "pdf_page": 291,
+          "printed_page": 275,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "10次iid伯努利观测7成功3失败，L(p)正比p^7(1−p)^3，MLE=.7。似然不是参数概率。",
+      "onscreen_formula": "L(p) ∝ p⁷(1−p)³     →     p̂ = 0.7"
+    },
+    {
+      "scene_index": 29,
+      "title": "估计，是从数据走向参数",
+      "start_seconds": 522,
+      "end_seconds": 540,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "5§4 期望与方差的点估计",
+          "pdf_page": 190,
+          "printed_page": 179,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "6.1 点估计的概念与无偏性",
+          "pdf_page": 281,
+          "printed_page": 265,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "6.2 矩估计及相合性",
+          "pdf_page": 286,
+          "printed_page": 270,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "5个iid指数(rate λ)样本2、3、4、5、6分钟，均值4分钟，矩估计与MLE均为1/4每分钟。速率MLE通常有有限样本偏差。",
+      "onscreen_formula": "等待：2,3,4,5,6 分钟     →     λ̂ = 1/x̄ = 0.25 /分钟"
+    },
+    {
+      "scene_index": 30,
+      "title": "置信区间：给估计一个范围",
+      "start_seconds": 540,
+      "end_seconds": 558,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "5§5 期望的置信区间",
+          "pdf_page": 199,
+          "printed_page": 188,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "6.6.1 区间估计概念",
+          "pdf_page": 316,
+          "printed_page": 300,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "6.6.1 重复抽样覆盖图",
+          "pdf_page": 317,
+          "printed_page": 301,
+          "evidence": "正文提取/渲染核验"
+        }
+      ],
+      "accuracy_guardrail": "固定μ、随机区间；95%为程序长期覆盖；100次未必95次。",
+      "onscreen_formula": "已知 σ，正态总体：x̄ ± 1.96σ/√n    ·    约 95% 覆盖率"
+    },
+    {
+      "scene_index": 31,
+      "title": "假设检验：证据有多极端",
+      "start_seconds": 558,
+      "end_seconds": 576,
+      "sources": [
+        {
+          "book_id": "mao",
+          "section": "7.1.3 检验的p值",
+          "pdf_page": 335,
+          "printed_page": 319,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "7.1.3 定义7.1.3",
+          "pdf_page": 336,
+          "printed_page": 320,
+          "evidence": "正文提取/渲染核验"
+        }
+      ],
+      "accuracy_guardrail": "H0及模型下至少同样极端结果的概率；双侧z=2,p=.04550026；不是P(H0真)。",
+      "onscreen_formula": "双侧 z = 2     p = 2[1−Φ(2)] ≈ 0.0455"
+    },
+    {
+      "scene_index": 32,
+      "title": "判断，总有两种代价",
+      "start_seconds": 576,
+      "end_seconds": 594,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "6§3 假设检验的某些概念和数学描述",
+          "pdf_page": 238,
+          "printed_page": 227,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "7.1.2 检验的两类错误与显著性",
+          "pdf_page": 332,
+          "printed_page": 316,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "α为第一类错误概率；β依具体备择；功效1−β。",
+      "onscreen_formula": "α = P(拒绝 H₀ | H₀ 真)     β = P(未拒绝 H₀ | H₁ 真)"
+    },
+    {
+      "scene_index": 33,
+      "title": "三种分布，搭起推断的桥",
+      "start_seconds": 594,
+      "end_seconds": 612,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "附录二 关于几种常用的统计量",
+          "pdf_page": 423,
+          "printed_page": 412,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "5.4 三大抽样分布",
+          "pdf_page": 264,
+          "printed_page": 248,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "t可正负、重尾；χ²和F非负；精确抽样结论需正态与相应独立性。",
+      "onscreen_formula": "独立标准正态与 χ² 变量，构造 χ²、t、F 分布"
+    },
+    {
+      "scene_index": 34,
+      "title": "模型，能否经受数据检验",
+      "start_seconds": 612,
+      "end_seconds": 630,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "6§6 总体的分布函数的假设检验",
+          "pdf_page": 275,
+          "printed_page": 264,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "7.4.2 分类数据的χ²拟合优度检验",
+          "pdf_page": 359,
+          "printed_page": 343,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "7.4.3 分布的χ²拟合优度检验",
+          "pdf_page": 361,
+          "printed_page": 345,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "χ²=Σ(O−E)²/E；自由度受估计参数数量影响；未拒绝不是证明分布。",
+      "onscreen_formula": "χ² = Σ(Oᵢ−Eᵢ)²/Eᵢ = 2.8     ·     公平骰子模型，df=5"
+    },
+    {
+      "scene_index": 35,
+      "title": "回归：在噪声里寻找趋势",
+      "start_seconds": 630,
+      "end_seconds": 648,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "7§1 一元线性回归",
+          "pdf_page": 285,
+          "printed_page": 274,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "8.4 一元线性回归",
+          "pdf_page": 410,
+          "printed_page": 394,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "最小二乘用y方向残差；相关/回归不能自动建立因果。",
+      "onscreen_formula": "yᵢ = β₀ + β₁xᵢ + εᵢ     ·     最小化残差平方和"
+    },
+    {
+      "scene_index": 36,
+      "title": "方差分析：差异从哪里来",
+      "start_seconds": 648,
+      "end_seconds": 666,
+      "sources": [
+        {
+          "book_id": "mao",
+          "section": "8.1 方差分析",
+          "pdf_page": 388,
+          "printed_page": 372,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "拒绝均值全相等仅说明至少一个不同；经典模型假设独立正态等方差误差。",
+      "onscreen_formula": "总平方和 = 组间平方和 + 组内平方和"
+    },
+    {
+      "scene_index": 37,
+      "title": "好的试验，让问题更清楚",
+      "start_seconds": 666,
+      "end_seconds": 684,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "第八章 正交试验法",
+          "pdf_page": 322,
+          "printed_page": 311,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "8.1 方差分析（试验背景）",
+          "pdf_page": 388,
+          "printed_page": 372,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "全因子2³=8组；正交表减少实验时不可忽略交互混杂。",
+      "onscreen_formula": "2³ = 8 种组合    ·    随机化 · 重复 · 区组"
+    },
+    {
+      "scene_index": 38,
+      "title": "贝叶斯决策：概率之后，是选择",
+      "start_seconds": 684,
+      "end_seconds": 702,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "9§1 统计决策问题概述",
+          "pdf_page": 365,
+          "printed_page": 354,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "chen",
+          "section": "9§2 什么是贝叶斯统计",
+          "pdf_page": 369,
+          "printed_page": 358,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "6.5 贝叶斯估计",
+          "pdf_page": 310,
+          "printed_page": 294,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "最小化后验期望损失；最可能状态不总是最优行动。",
+      "onscreen_formula": "误报损失 1，漏检损失 20    →    判为次品当 p > 1/21"
+    },
+    {
+      "scene_index": 39,
+      "title": "随机过程：让时间走进概率",
+      "start_seconds": 702,
+      "end_seconds": 720,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "10§1 随机过程的概念",
+          "pdf_page": 393,
+          "printed_page": 382,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "chen",
+          "section": "10§2 独立增量过程",
+          "pdf_page": 395,
+          "printed_page": 384,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "chen",
+          "section": "10§3 马尔可夫过程",
+          "pdf_page": 398,
+          "printed_page": 387,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "Markov：π_(t+1)=π_tP，行和1；随机游走与布朗运动有缩放区别。",
+      "onscreen_formula": "P = [[0.8, 0.2], [0.4, 0.6]]    ·    行列顺序：晴、雨"
+    },
+    {
+      "scene_index": 40,
+      "title": "从偶然，到证据，再到行动",
+      "start_seconds": 720,
+      "end_seconds": 738,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "目录",
+          "pdf_page": 9,
+          "printed_page": null,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "chen",
+          "section": "目录",
+          "pdf_page": 10,
+          "printed_page": null,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "chen",
+          "section": "目录",
+          "pdf_page": 11,
+          "printed_page": null,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        },
+        {
+          "book_id": "mao",
+          "section": "目录",
+          "pdf_page": 10,
+          "printed_page": null,
+          "evidence": "PDF书签定位；重点定义已对照正文与渲染图"
+        }
+      ],
+      "accuracy_guardrail": "由随机现象→概率模型→抽样→推断→决策，闭环展示。",
+      "onscreen_formula": "事件 → 分布 → 极限 → 抽样 → 推断 → 决策"
+    },
+    {
+      "scene_index": 41,
+      "title": "与不确定性同行",
+      "start_seconds": 738,
+      "end_seconds": 756,
+      "sources": [
+        {
+          "book_id": "chen",
+          "section": "标题页",
+          "pdf_page": 3,
+          "printed_page": null,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "chen",
+          "section": "版权页",
+          "pdf_page": 4,
+          "printed_page": null,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "标题页",
+          "pdf_page": 3,
+          "printed_page": null,
+          "evidence": "正文提取/渲染核验"
+        },
+        {
+          "book_id": "mao",
+          "section": "版权页",
+          "pdf_page": 4,
+          "printed_page": null,
+          "evidence": "正文提取/渲染核验"
+        }
+      ],
+      "accuracy_guardrail": "茆书四位作者：茆诗松、程依明、濮晓龙、倪葎；片尾注明教材依据与原创动画。",
+      "onscreen_formula": "保持好奇。尊重证据。理解不确定性。"
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "purpose": "两本用户提供教材的学习MV知识骨架与数学审计",
+  "created": "2026-10-05",
+  "status": "read-only source analysis; no source PDF modified",
+  "books": [
+    {
+      "id": "chen",
+      "title": "概率统计讲义",
+      "edition": "第三版",
+      "authors": [
+        "陈家鼎",
+        "刘婉如",
+        "汪仁官"
+      ],
+      "publisher": "高等教育出版社",
+      "year_month": "2004-05",
+      "isbn": "7-04-014404-2",
+      "pdf_pages": 463,
+      "title_page_pdf": 3,
+      "copyright_page_pdf": 4,
+      "contents_pdf_pages": [
+        9,
+        10,
+        11
+      ],
+      "printed_to_pdf_offset": 11,
+      "offset_scope": "正文；目录与末尾空白页不用此换算",
+      "verification": "标题页、版权页及三页目录已渲染视觉核验；章节定位来自PDF书签并由目录印刷页码互证",
+      "chapters": [
+        {
+          "title": "第一章 随机事件与概率",
+          "pdf_page": 12,
+          "printed_page": 1
+        },
+        {
+          "title": "第二章 随机变量与概率分布",
+          "pdf_page": 58,
+          "printed_page": 47
+        },
+        {
+          "title": "第三章 随机变量的数字特征",
+          "pdf_page": 87,
+          "printed_page": 76
+        },
+        {
+          "title": "第四章 随机向量",
+          "pdf_page": 112,
+          "printed_page": 101
+        },
+        {
+          "title": "第五章 统计估值",
+          "pdf_page": 169,
+          "printed_page": 158
+        },
+        {
+          "title": "第六章 假设检验",
+          "pdf_page": 222,
+          "printed_page": 211
+        },
+        {
+          "title": "第七章 回归分析方法",
+          "pdf_page": 284,
+          "printed_page": 273
+        },
+        {
+          "title": "第八章 正交试验法",
+          "pdf_page": 322,
+          "printed_page": 311
+        },
+        {
+          "title": "第九章 统计决策与贝叶斯统计大意",
+          "pdf_page": 365,
+          "printed_page": 354
+        },
+        {
+          "title": "第十章 随机过程初步",
+          "pdf_page": 393,
+          "printed_page": 382
+        }
+      ]
+    },
+    {
+      "id": "mao",
+      "title": "概率论与数理统计教程",
+      "edition": "第四版",
+      "authors": [
+        "茆诗松",
+        "程依明",
+        "濮晓龙",
+        "倪葎"
+      ],
+      "publisher": "高等教育出版社",
+      "year_month": "2026-02",
+      "isbn": "978-7-04-066576-5",
+      "pdf_pages": 478,
+      "title_page_pdf": 3,
+      "copyright_page_pdf": 4,
+      "contents_pdf_pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "printed_to_pdf_offset": 16,
+      "offset_scope": "正文；前言和目录不用此换算",
+      "verification": "标题页、版权页已渲染视觉核验；正文可提取文字，章节定位来自PDF书签；PDF元数据缺少作者濮晓龙且OCR常将茆误作茄、葎误作蓿，署名必须用视觉核验的标题页",
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "随机事件与概率",
+          "pdf_page": 17,
+          "printed_page": 1
+        },
+        {
+          "chapter": 2,
+          "title": "随机变量及其分布",
+          "pdf_page": 69,
+          "printed_page": 53
+        },
+        {
+          "chapter": 3,
+          "title": "多维随机变量及其分布",
+          "pdf_page": 140,
+          "printed_page": 124
+        },
+        {
+          "chapter": 4,
+          "title": "大数定律与中心极限定理",
+          "pdf_page": 202,
+          "printed_page": 186
+        },
+        {
+          "chapter": 5,
+          "title": "统计量及其分布",
+          "pdf_page": 239,
+          "printed_page": 223
+        },
+        {
+          "chapter": 6,
+          "title": "参数估计",
+          "pdf_page": 281,
+          "printed_page": 265
+        },
+        {
+          "chapter": 7,
+          "title": "假设检验",
+          "pdf_page": 330,
+          "printed_page": 314
+        },
+        {
+          "chapter": 8,
+          "title": "方差分析与回归分析",
+          "pdf_page": 388,
+          "printed_page": 372
+        }
+      ]
+    }
+  ],
+  "duration_seconds": 682,
+  "duration_mmss": "11:22",
+  "scene_count": 34,
+  "scenes": [
+    {
+      "id": 1,
+      "title": "世界正在掷骰子",
+      "visual": "城市雨滴、车灯、工厂传送带与一枚旋转硬币连续匹配剪辑；每一种运动凝成一个数据点。",
+      "narration": "一次结果难以预知，重复之中却会出现结构。",
+      "onscreen_math": "随机现象 → 观察 → 模型",
+      "duration_seconds": 18,
+      "start_seconds": 0,
+      "end_seconds": 18,
+      "book_location": "陈第1章 PDF12；茆第1章 PDF17",
+      "accuracy_guardrail": "生活画面只是例子，不能暗示所有复杂现象都独立同分布。",
+      "transition": "雨滴击中地面的涟漪变成硬币圆边"
+    },
+    {
+      "id": 2,
+      "title": "从一次结果到所有可能",
+      "visual": "两枚有辨识标记的硬币落在2×2玻璃格，HH、HT、TH、TT依次亮起。",
+      "narration": "描述随机，先把可能发生的结果说清楚。",
+      "onscreen_math": "Ω={HH,HT,TH,TT}",
+      "duration_seconds": 16,
+      "start_seconds": 18,
+      "end_seconds": 34,
+      "book_location": "陈1§1 PDF12；茆1.1 PDF17",
+      "accuracy_guardrail": "等可能性来自独立公平模型；HT与TH是不同结果。",
+      "transition": "2×2格平移扩展成6×6骰子格"
+    },
+    {
+      "id": 3,
+      "title": "36种路径，7点最拥挤",
+      "visual": "红蓝骰子升起，36格逐列发光；和为7的6格亮金色，六条光路汇到7。",
+      "narration": "相同的点数和，背后可能有不同数量的路径。",
+      "onscreen_math": "P(X+Y=7)=6/36=1/6",
+      "duration_seconds": 20,
+      "start_seconds": 34,
+      "end_seconds": 54,
+      "book_location": "陈1§2 PDF16；茆1.2 PDF26",
+      "accuracy_guardrail": "两个骰子须公平且独立。概率柱状图有11种和，但这些和不等可能。",
+      "transition": "发光格点脱离网格变成透明事件圆中的物件"
+    },
+    {
+      "id": 4,
+      "title": "事件可以相交",
+      "visual": "100个带颜色标签的球进入两个重叠圆；双属性球留在交集，计数器对交集减去一次。",
+      "narration": "把事件拼起来时，重叠的部分只算一次。",
+      "onscreen_math": "P(A∪B)=P(A)+P(B)−P(A∩B)",
+      "duration_seconds": 16,
+      "start_seconds": 54,
+      "end_seconds": 70,
+      "book_location": "陈1§3 PDF22；茆1.1 PDF17、1.3 PDF43",
+      "accuracy_guardrail": "互斥不是独立；非零概率互斥事件必不独立。",
+      "transition": "圆形交集放大成为传感器镜头"
+    },
+    {
+      "id": 5,
+      "title": "一次报警意味着什么",
+      "visual": "10,000件产品矩阵，100件次品着橙；传感器筛出99次品和495良品，镜头进入594件报警区。",
+      "narration": "报警值得重视，但报警之后的概率，还取决于原来的比例。",
+      "onscreen_math": "99/(99+495)=16.7%",
+      "duration_seconds": 24,
+      "start_seconds": 70,
+      "end_seconds": 94,
+      "book_location": "陈1§6 PDF43；茆1.4 PDF51",
+      "accuracy_guardrail": "设次品率1%、检出率99%、误报率5%；显示“模型下期望件数”。P(次品|报警)不是99%。",
+      "transition": "594件报警产品中金色比率转成扇形，再展开概率树"
+    },
+    {
+      "id": 6,
+      "title": "信息会改变分母",
+      "visual": "同一批有色球先按全体计算，再关上条件B外的灯，只在B中重新计算。",
+      "narration": "条件概率，是在已经知道的信息里，重新衡量可能性。",
+      "onscreen_math": "P(A|B)=P(A∩B)/P(B), P(B)>0",
+      "duration_seconds": 18,
+      "start_seconds": 94,
+      "end_seconds": 112,
+      "book_location": "陈1§5 PDF36；茆1.4 PDF51",
+      "accuracy_guardrail": "必须显式指出条件事件，不能交换P(A|B)与P(B|A)。",
+      "transition": "条件框边缘分裂成两条同步硬币轨道"
+    },
+    {
+      "id": 7,
+      "title": "独立不是互不相干的口号",
+      "visual": "左侧独立投币，右侧不放回抽红蓝球；抽走一球后右侧第二次概率刻度移动，左侧0.5刻度不动。",
+      "narration": "独立，说的是知道一次结果，不改变另一次事件的概率。",
+      "onscreen_math": "P(A∩B)=P(A)P(B)",
+      "duration_seconds": 18,
+      "start_seconds": 112,
+      "end_seconds": 130,
+      "book_location": "陈1§5 PDF36；茆1.5 PDF61",
+      "accuracy_guardrail": "不放回通常相关；几何上分开、时间上先后都不是独立的证明。",
+      "transition": "硬币的两条路线变成高尔顿板左右分叉"
+    },
+    {
+      "id": 8,
+      "title": "二项分布：路径堆成山",
+      "visual": "小球在高尔顿板逐层左右跳，路径与底部计数柱同步出现；镜头绕板展示中间路径最多。",
+      "narration": "重复相同的试验，成功次数也有自己的分布。",
+      "onscreen_math": "X~Bin(n,p), P(X=k)=C(n,k)p^k(1−p)^(n−k)",
+      "duration_seconds": 20,
+      "start_seconds": 130,
+      "end_seconds": 150,
+      "book_location": "陈1§7 PDF52、2§2 PDF61；茆2.4 PDF97",
+      "accuracy_guardrail": "把板明确标“独立左右选择模型”；真实碰撞装置不保证严格二项。",
+      "transition": "底部柱压缩为时间轴上的计数窗"
+    },
+    {
+      "id": 9,
+      "title": "泊松：数一数一分钟",
+      "visual": "地铁闸机在时间线上发出光脉冲，等长窗口内出现0、1、2…个到达；窗口堆成柱状分布。",
+      "narration": "在稳定的到达模型里，随机发生的次数可以被描述。",
+      "onscreen_math": "P(N=k)=e^(−λ) λ^k/k!",
+      "duration_seconds": 18,
+      "start_seconds": 150,
+      "end_seconds": 168,
+      "book_location": "陈2§2 PDF61；茆2.4 PDF97",
+      "accuracy_guardrail": "泊松过程需平稳独立增量等假设；不宣称现实高峰客流必为泊松。λ是该窗口的期望次数。",
+      "transition": "时间轴两个脉冲间的间隔拉长成寿命尺"
+    },
+    {
+      "id": 10,
+      "title": "指数：等待多久",
+      "visual": "多个灯泡寿命条或闸机等待条同时伸长，失效/到达时熄灭；存活曲线从1平滑下降。",
+      "narration": "次数与等待，原来是同一条时间线的两面。",
+      "onscreen_math": "P(T>t)=e^(−λt), t≥0",
+      "duration_seconds": 18,
+      "start_seconds": 168,
+      "end_seconds": 186,
+      "book_location": "陈2§3 PDF68；茆2.5 PDF109；陈10§2 PDF395",
+      "accuracy_guardrail": "指数无记忆性是特定模型；真实老化灯泡未必满足，画面标“恒定失效率模型”。",
+      "transition": "寿命条变成密度曲线下的竖向细条"
+    },
+    {
+      "id": 11,
+      "title": "面积才是概率",
+      "visual": "密度曲线下面一块发光面积随区间滑动；旁边量杯对应CDF从0累积到1。",
+      "narration": "连续世界里的概率，藏在一段区间的面积里。",
+      "onscreen_math": "P(a<X≤b)=∫[a,b]f(x)dx=F(b)−F(a)",
+      "duration_seconds": 18,
+      "start_seconds": 186,
+      "end_seconds": 204,
+      "book_location": "陈2§3 PDF68、§4 PDF75；茆2.1 PDF69",
+      "accuracy_guardrail": "密度不是概率，密度可超过1；绝对连续模型单点概率为0。CDF非降。",
+      "transition": "累积面积变成天平上的重量块"
+    },
+    {
+      "id": 12,
+      "title": "期望：概率的重心",
+      "visual": "不同位置、不同重量的发光球落到刻度杆，支点自动移动直到平衡。",
+      "narration": "期望是一种按概率加权的重心，不一定是任何一次可能出现的值。",
+      "onscreen_math": "E[X]=Σ x·P(X=x)",
+      "duration_seconds": 18,
+      "start_seconds": 204,
+      "end_seconds": 222,
+      "book_location": "陈3§1 PDF87、§2 PDF91；茆2.2 PDF83",
+      "accuracy_guardrail": "公平骰子期望3.5，却不会掷出3.5；期望存在须可积。",
+      "transition": "刻度杆旋转为靶场横轴"
+    },
+    {
+      "id": 13,
+      "title": "方差：同样平均，不同风险",
+      "visual": "两台投球器落点均围绕同一中心，青色窄、橙色宽；偏差线平方为小方块。",
+      "narration": "同样的平均值，可能拥有完全不同的波动。",
+      "onscreen_math": "Var(X)=E[(X−μ)^2]",
+      "duration_seconds": 18,
+      "start_seconds": 222,
+      "end_seconds": 240,
+      "book_location": "陈3§4 PDF101；茆2.3 PDF92",
+      "accuracy_guardrail": "方差单位是原单位平方，标准差同原单位；零方差意味着几乎处处常数。",
+      "transition": "偏差方块升高成为二维联合分布柱"
+    },
+    {
+      "id": 14,
+      "title": "联合分布：两个变量的地形",
+      "visual": "二维热力柱/山地，X和Y方向分别投影到边缘；一条发光边缘分布带沿轴升起。",
+      "narration": "两个量一起变化时，一张表面保留着它们共同的结构。",
+      "onscreen_math": "f_X(x)=∫f_(X,Y)(x,y)dy",
+      "duration_seconds": 20,
+      "start_seconds": 240,
+      "end_seconds": 260,
+      "book_location": "陈4§1 PDF113；茆3.1 PDF140、3.2 PDF151",
+      "accuracy_guardrail": "投影是积分或求和，不是取最大高度；连续联合密度有正确归一化。",
+      "transition": "相机横移使二维地形成为散点云"
+    },
+    {
+      "id": 15,
+      "title": "相关：一起变化的方向",
+      "visual": "散点云从圆形转为向上、向下倾斜椭圆，相关系数刻度同步变化；最后出现U形点云。",
+      "narration": "线性相关捕捉方向，但一个数字，讲不完两个变量的关系。",
+      "onscreen_math": "−1≤ρ≤1；ρ=0 不推出独立",
+      "duration_seconds": 20,
+      "start_seconds": 260,
+      "end_seconds": 280,
+      "book_location": "陈4§3 PDF139；茆3.4 PDF170",
+      "accuracy_guardrail": "U形例取X~U(−1,1),Y=X²，则Cov=0但依赖；相关不等于因果。",
+      "transition": "U形点云横切成一个条件分布切片"
+    },
+    {
+      "id": 16,
+      "title": "条件期望：信息逐渐变清楚",
+      "visual": "房屋面积与能耗散点上竖切一个窄带，该条件切片的均值连成预测曲线。",
+      "narration": "增加信息，可以改变我们对下一个结果的最佳预测。",
+      "onscreen_math": "E[Y|X]；平方损失下的最佳预测",
+      "duration_seconds": 18,
+      "start_seconds": 280,
+      "end_seconds": 298,
+      "book_location": "陈4§5 PDF155（最佳平方误差结论PDF164）；茆3.5 PDF188",
+      "accuracy_guardrail": "此“最佳”指所有可测函数中平方损失最小且E[Y²]<∞；无需线性或因果解释。",
+      "transition": "切片中的点汇成重复抽样的小队"
+    },
+    {
+      "id": 17,
+      "title": "大数：频率逐渐稳定",
+      "visual": "多条独立投币频率轨迹从剧烈波动走向0.5附近；显示n=10、100、1,000、10,000。",
+      "narration": "重复足够多次，频率趋于稳定；下一次投币却仍然未知。",
+      "onscreen_math": "独立公平投币：S_n/n → 1/2",
+      "duration_seconds": 24,
+      "start_seconds": 298,
+      "end_seconds": 322,
+      "book_location": "陈4§6 PDF164-166；茆4.3 PDF218起",
+      "accuracy_guardrail": "依概率收敛不等于每步更接近；不能保证接下来补偿过去，更不能把差额趋0当频率趋0。",
+      "transition": "频率轨迹末端变成一组样本均值点"
+    },
+    {
+      "id": 18,
+      "title": "中心极限：不同出发，相似轮廓",
+      "visual": "均匀、偏斜指数、伯努利三种总体；每次取n个求均值，标准化后累积为直方图；n从1到4、16、64。",
+      "narration": "在条件满足时，许多微小波动的标准化总和，走向共同的钟形。",
+      "onscreen_math": "√n( X̄−μ)/σ ⇒ N(0,1)",
+      "duration_seconds": 28,
+      "start_seconds": 322,
+      "end_seconds": 350,
+      "book_location": "陈PDF166印刷155页；茆4.4 PDF226起，定理在PDF228",
+      "accuracy_guardrail": "经典iid版：独立同分布，0<σ²<∞。趋于正态的是标准化和/均值的分布，不是原始数据。n=30并非普适保证。",
+      "transition": "钟形曲线变成工业量具上的容差带"
+    },
+    {
+      "id": 19,
+      "title": "模型连接工厂与宇宙",
+      "visual": "传感器误差、测量标尺、加工零件三画面；误差点叠加，正态曲线覆盖测量仪。",
+      "narration": "概率模型，让复杂波动成为可以分析和控制的对象。",
+      "onscreen_math": "模型 · 假设 · 数据 · 检查",
+      "duration_seconds": 18,
+      "start_seconds": 350,
+      "end_seconds": 368,
+      "book_location": "茆4.4.1 PDF226-227；陈2§3 PDF68",
+      "accuracy_guardrail": "“很多因素”本身不能保证正态；画面以教学模型标识，不把金融尾部等都正态化。",
+      "transition": "量具取出的零件变成总体抽样盒"
+    },
+    {
+      "id": 20,
+      "title": "抽样：从少数看见整体",
+      "visual": "透明罐中彩球总体，随机抓取发光样本；另一边只取顶层制造偏样，结果明显偏离。",
+      "narration": "统计从有限样本出发，而抽样方式决定了我们能够说多远。",
+      "onscreen_math": "总体 → 随机样本 → 统计量",
+      "duration_seconds": 20,
+      "start_seconds": 368,
+      "end_seconds": 388,
+      "book_location": "陈5§1 PDF169；茆5.1 PDF239",
+      "accuracy_guardrail": "大样本不能自动修复选择偏差；独立随机样本不是随手取得的大量数据。",
+      "transition": "样本球飞到均值与方差的两台仪表"
+    },
+    {
+      "id": 21,
+      "title": "样本也有分布",
+      "visual": "重复取样n=12，每份均值成为一个点，样本均值分布逐渐显现；误差带随n增加收窄。",
+      "narration": "换一份样本，答案会变；统计学也描述这种变化。",
+      "onscreen_math": "SE( X̄)=σ/√n",
+      "duration_seconds": 18,
+      "start_seconds": 388,
+      "end_seconds": 406,
+      "book_location": "陈5§4 PDF190；茆5.2 PDF245",
+      "accuracy_guardrail": "标准误是统计量的标准差，不是单个观测标准差；公式需iid有限方差。样本量4倍时SE减半。",
+      "transition": "均值点落入t、χ²、F三扇数学之门"
+    },
+    {
+      "id": 22,
+      "title": "三种抽样分布",
+      "visual": "正态随机样本→标准化均值、平方和、方差比三条具象输送路线，得到t、χ²、F曲线。",
+      "narration": "统计量的分布，把估计和检验连接起来。",
+      "onscreen_math": "t · χ² · F",
+      "duration_seconds": 18,
+      "start_seconds": 406,
+      "end_seconds": 424,
+      "book_location": "陈附录二 PDF423；茆5.4 PDF264",
+      "accuracy_guardrail": "精确t/χ²/F结果依赖正态样本及独立性等条件。t重尾，χ²/F非负；别把三者画成同一钟形。",
+      "transition": "三条曲线汇入一条似然曲线"
+    },
+    {
+      "id": 23,
+      "title": "似然：让观察到的数据更可能",
+      "visual": "100次投币固定70正30反，p滑块沿0到1移动；概率光束最亮处在0.70。",
+      "narration": "数据已经发生。似然比较的是：哪一个参数更能解释这份数据。",
+      "onscreen_math": "L(p)∝p^70(1−p)^30；p̂=0.70",
+      "duration_seconds": 20,
+      "start_seconds": 424,
+      "end_seconds": 444,
+      "book_location": "陈5§3 PDF183；茆6.3 PDF291",
+      "accuracy_guardrail": "似然是固定数据后关于参数的函数，本身不是参数概率密度；不需把L对p归一化。",
+      "transition": "似然光峰与另一条先验曲线叠合"
+    },
+    {
+      "id": 24,
+      "title": "贝叶斯：带着证据更新",
+      "visual": "Beta(2,2)先验、7正3反的似然、Beta(9,5)后验三条曲线，先验和似然融合成后验。",
+      "narration": "把已有信息写清楚，再让新证据改变判断。",
+      "onscreen_math": "先验 × 似然 → 后验；E[p|data]=9/14≈0.643",
+      "duration_seconds": 22,
+      "start_seconds": 444,
+      "end_seconds": 466,
+      "book_location": "陈9§2 PDF369；茆6.5 PDF310",
+      "accuracy_guardrail": "β分布先验Beta(2,2)，独立伯努利7/10，后验Beta(9,5)。不要将后验均值0.643写成MLE0.7；解释依赖先验与模型。",
+      "transition": "后验曲线底座拉成长条区间"
+    },
+    {
+      "id": 25,
+      "title": "置信区间：会移动的网",
+      "visual": "固定真均值μ竖线；100条独立重复抽样区间自下向上滚动，覆盖青色、未覆盖橙色；实时计数。",
+      "narration": "95%的，是这套构造区间的方法在重复抽样中的长期覆盖率。",
+      "onscreen_math": "固定参数；随机区间；长期覆盖≈95%",
+      "duration_seconds": 26,
+      "start_seconds": 466,
+      "end_seconds": 492,
+      "book_location": "陈5§5 PDF199-200；茆6.6 PDF316-317（印刷300-301）",
+      "accuracy_guardrail": "不要固定画95/100当必然；模拟真实结果并显示本次覆盖数。抽样前Pθ(L≤θ≤U)=0.95；给定样本后不作参数概率解释。若用x̄±1.96σ/√n，明确σ已知与正态模型（或近似）。",
+      "transition": "未覆盖的橙色区间伸展成假设检验尾部区域"
+    },
+    {
+      "id": 26,
+      "title": "检验：把怀疑交给规则",
+      "visual": "工厂目标均值标在μ0；样本均值生成z统计量，箭头从中心滑向曲线尾部，预设α临界线先亮起。",
+      "narration": "先写下假设与规则，再看数据是否提供足够反对它的证据。",
+      "onscreen_math": "H0:μ=μ0；H1:μ≠μ0",
+      "duration_seconds": 20,
+      "start_seconds": 492,
+      "end_seconds": 512,
+      "book_location": "陈第6章 PDF222；茆7.1 PDF330",
+      "accuracy_guardrail": "“未拒绝H0”不等于证明H0正确；拒绝也不是逻辑上绝对否定。α应预设，不能看数据挑单/双侧。",
+      "transition": "两条临界线延伸成两种错误的交叉通道"
+    },
+    {
+      "id": 27,
+      "title": "两类错误与功效",
+      "visual": "H0和H1两条曲线；固定拒绝域，α和β两块不同颜色面积发光；n增大两分布分离，功效增长。",
+      "narration": "检验会犯错。设计实验，就是让错误可控，让真实差异更容易被发现。",
+      "onscreen_math": "α=P(拒绝H0|H0真)；功效=1−β",
+      "duration_seconds": 18,
+      "start_seconds": 512,
+      "end_seconds": 530,
+      "book_location": "陈6§3 PDF238；茆7.1.2 PDF331-334",
+      "accuracy_guardrail": "β依赖具体备择参数、效应量、n及检验；固定n移动阈值展示tradeoff，不宣称全情形都必然严格。",
+      "transition": "拒绝域面积聚焦成双侧p值阴影"
+    },
+    {
+      "id": 28,
+      "title": "p值：极端到什么程度",
+      "visual": "标准正态曲线标−2和2，两端同步涂色；面积合计读数0.0455；H0模型字样持续可见。",
+      "narration": "假设原假设成立，至少同样极端的结果，有多常见？",
+      "onscreen_math": "z=2；双侧p=2[1−Φ(2)]≈0.0455",
+      "duration_seconds": 22,
+      "start_seconds": 530,
+      "end_seconds": 552,
+      "book_location": "茆7.1.3 PDF335-336；陈6§3 PDF238",
+      "accuracy_guardrail": "不是P(H0|data)，不是结果由随机性造成的概率，不等于效应大小；“至少同样极端”依预定检验与备择定义。",
+      "transition": "尾部面积变成三组温室里的生长高度"
+    },
+    {
+      "id": 29,
+      "title": "方差分析：组间与组内",
+      "visual": "三组同种植物在不同条件下生长，用透明尺显示组均值和个体波动；总体变差拆成两种颜色。",
+      "narration": "差异是条件带来的，还是组内波动足以解释？",
+      "onscreen_math": "总变差=组间变差+组内变差",
+      "duration_seconds": 20,
+      "start_seconds": 552,
+      "end_seconds": 572,
+      "book_location": "茆8.1 PDF388；陈第8章 PDF322（设计背景）",
+      "accuracy_guardrail": "经典单因素ANOVA需独立误差、正态、等方差；拒绝总体均值相等仅说明至少一个不同，不能推出每一对不同。",
+      "transition": "植物顶端点形成回归散点云"
+    },
+    {
+      "id": 30,
+      "title": "回归：从数据到预测",
+      "visual": "横轴输入、纵轴输出，散点与直线；每点垂直残差伸出平方片，线转到平方和最小时停下。",
+      "narration": "用一条关系解释趋势，同时保留无法解释的误差。",
+      "onscreen_math": "最小二乘：min Σ(y_i−a−b x_i)^2",
+      "duration_seconds": 22,
+      "start_seconds": 572,
+      "end_seconds": 594,
+      "book_location": "陈7§1 PDF285；茆8.4 PDF410",
+      "accuracy_guardrail": "回归线不自动表示因果；最小二乘竖直残差，非到线的垂直距离。区间外外推显示不确定而非可靠延伸。",
+      "transition": "残差方块排列成多因素实验矩阵"
+    },
+    {
+      "id": 31,
+      "title": "设计实验：主动创造证据",
+      "visual": "温度、压力、时间三个旋钮，各2水平；8个实验格点组成立方体，镜头突出随机化与重复。",
+      "narration": "我们不只被动观察，也能设计更有信息的试验。",
+      "onscreen_math": "随机化 · 重复 · 对照",
+      "duration_seconds": 20,
+      "start_seconds": 594,
+      "end_seconds": 614,
+      "book_location": "陈第8章正交试验 PDF322-349；茆8.1 PDF388",
+      "accuracy_guardrail": "2³全因子8组可完整展示；若减少为L4正交表则主效应与交互作用混杂，不能号称4组恢复全部交互。",
+      "transition": "实验立方体边缘连接成状态转移网络"
+    },
+    {
+      "id": 32,
+      "title": "随机过程：概率开始随时间流动",
+      "visual": "晴/雨两状态连线动画，多个实体逐时跳转；旁边概率条按转移矩阵稳定演化。",
+      "narration": "当随机变量带上时间，我们开始描述一整条未来路径。",
+      "onscreen_math": "π_(t+1)=π_t P",
+      "duration_seconds": 20,
+      "start_seconds": 614,
+      "end_seconds": 634,
+      "book_location": "陈10§1 PDF393、§3 PDF398",
+      "accuracy_guardrail": "明确这是两状态马尔可夫教学模型，未来条件分布只依赖当前状态；真实天气不一定一阶马尔可夫。P每行和1。",
+      "transition": "状态轨迹化为大量二维随机游走粒子"
+    },
+    {
+      "id": 33,
+      "title": "随机游走：一条曲折，万条秩序",
+      "visual": "上千粒子独立左右行走，个体轨迹曲折；集合分布向外扩散，尺度尺显示典型位移∝√t。",
+      "narration": "一条路径难以预测，许多路径却能呈现稳定的统计形状。",
+      "onscreen_math": "对称独立步长：E[S_n]=0，Var(S_n)=n",
+      "duration_seconds": 24,
+      "start_seconds": 634,
+      "end_seconds": 658,
+      "book_location": "陈第10章 PDF393起；与陈4§6 PDF164、茆4.4 PDF226连接",
+      "accuracy_guardrail": "这是离散随机游走的原创示意与拓展；不要未经缩放直接等同布朗运动。画正态近似须标大n近似。",
+      "transition": "粒子沿先前全部图形轮廓回流，拼成学科地图"
+    },
+    {
+      "id": 34,
+      "title": "从偶然，到有根据的判断",
+      "visual": "硬币、密度山、均值轨迹、区间架、实验立方体环绕统一世界；两书书目与源码署名在尾声出现。",
+      "narration": "概率描述可能，统计从证据出发。理解不确定，才能更清楚地行动。",
+      "onscreen_math": "概率 · 统计 · 证据 · 决策",
+      "duration_seconds": 24,
+      "start_seconds": 658,
+      "end_seconds": 682,
+      "book_location": "全片综合；陈第9章PDF365；两书标题页PDF3",
+      "accuracy_guardrail": "影片是学科导览与视觉学习MV，不宣称替代完整课程；书目署名使用四作者茆书。",
+      "transition": "音画共同收束，至少3秒干净停留"
+    }
+  ],
+  "numerical_and_conceptual_checks": {
+    "bayes_alarm": {
+      "assumptions": {
+        "population": 10000,
+        "defect_prevalence": 0.01,
+        "sensitivity": 0.99,
+        "false_positive_rate": 0.05
+      },
+      "expected_counts": {
+        "defective": 100,
+        "nondefective": 9900,
+        "true_positive": 99,
+        "false_positive": 495,
+        "positive_total": 594
+      },
+      "posterior": 0.16666666666666666,
+      "display": "16.7%",
+      "warning": "事件率是教学设定；人数/件数为期望值。不要声称报警器“准确率99%”——这里只给检出率99%。"
+    },
+    "clt": {
+      "formula": "sqrt(n)*(mean(X)-mu)/sigma => N(0,1)",
+      "assumptions": [
+        "iid",
+        "finite mean mu",
+        "finite positive variance sigma²"
+      ],
+      "source": "陈PDF166印刷155；茆PDF228印刷212",
+      "warning": "原始总体分布不随抽样变正态；标准化统计量分布趋近正态。有限n无通用“30即够”结论。"
+    },
+    "confidence_interval": {
+      "interpretation": "真参数固定，区间由随机样本决定；按相同程序反复抽样，长期覆盖率为95%（精确95%方法）或至少95%（保守方法）。",
+      "example": "正态总体且sigma已知时 mean ± 1.9599639845*sigma/sqrt(n)",
+      "source": "茆PDF316-317印刷300-301；陈PDF199-200印刷188-189",
+      "warning": "不要把频率学派已实现的95%区间说成固定参数以95%概率落入其中。不要安排每100次恰好95条覆盖。"
+    },
+    "p_value": {
+      "null": "standard normal test statistic under H0",
+      "statistic_observed": 2,
+      "alternative": "two-sided",
+      "formula": "2*(1-Phi(abs(z)))",
+      "value": 0.04550026389635842,
+      "source": "茆7.1.3 PDF335-336印刷319-320",
+      "warning": "不是H0为真的概率、不是错误拒绝的后验概率、不是效应大小。p>alpha用“未拒绝”，不要“证明为真”。"
+    },
+    "beta_binomial": {
+      "prior": "Beta(2,2)",
+      "observed": "7 heads,3 tails in 10 iid Bernoulli trials",
+      "posterior": "Beta(9,5)",
+      "posterior_mean": 0.6428571428571429,
+      "mle": 0.7,
+      "warning": "先验和后验画概率密度；似然是参数函数，两者语义不要混同。"
+    },
+    "markov": {
+      "example_transition_matrix": [
+        [
+          0.8,
+          0.2
+        ],
+        [
+          0.4,
+          0.6
+        ]
+      ],
+      "row_state_order": [
+        "sun",
+        "rain"
+      ],
+      "stationary_distribution": [
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "warning": "pi作为行向量；pi_(t+1)=pi_t P，矩阵每行和为1。模型仅示意。"
+    },
+    "correlation_counterexample": {
+      "X": "Uniform(-1,1)",
+      "Y": "X²",
+      "covariance": 0,
+      "independent": false,
+      "reason": "symmetry yields E[X³]=0 and E[X]=0; Y is deterministic function of X"
+    },
+    "book_language_adaptation": "部分教材写“接受原假设”，影片统一用更清晰的“未拒绝原假设”，避免观众误认为证明其为真。"
+  },
+  "source_evidence_files": [
+    "chen_toc.json",
+    "mao_toc.json",
+    "mao_evidence.json"
+  ],
+  "scope_note": "34景为备选创意清单，累计11分22秒；实际主片采用42景×18秒（12分36秒），对应来源见教材镜头索引.json。"
+}

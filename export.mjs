@@ -1,0 +1,10 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import {spawn} from 'node:child_process';import {SHOTS} from './timeline.mjs';
+const DIR=path.dirname(fileURLToPath(import.meta.url)),work=path.join(DIR,'work');fs.mkdirSync(work,{recursive:true});
+const run=(cmd,args)=>new Promise((resolve,reject)=>{const child=spawn(cmd,args,{cwd:DIR,stdio:'inherit'});child.on('error',reject);child.on('close',code=>code===0?resolve():reject(new Error(`${cmd} exited with ${code}`)))});
+let meta=';FFMETADATA1\ntitle=随机之美 · 概率统计\n';for(const s of SHOTS)meta+=`\n[CHAPTER]\nTIMEBASE=1/1000\nSTART=${s.start*1000}\nEND=${(s.start+s.duration)*1000}\ntitle=${String(s.id+1).padStart(2,'0')} ${s.title}\n`;
+fs.writeFileSync(path.join(work,'chapters.ffmeta'),meta);
+await run(process.execPath,['render.mjs','render','--out',path.join(work,'picture.mp4')]);
+const out=path.join(DIR,'outputs/随机之美_概率统计_1080p60.mp4');
+fs.mkdirSync(path.dirname(out),{recursive:true});
+await run('ffmpeg',['-hide_banner','-y','-i',path.join(work,'picture.mp4'),'-i',path.join(DIR,'public/master.m4a'),'-i',path.join(work,'chapters.ffmeta'),'-map','0:v:0','-map','1:a:0','-map_metadata','2','-map_chapters','2','-c','copy','-movflags','+faststart',out]);
+console.log('Saved '+out);

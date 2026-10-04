@@ -1,0 +1,24 @@
+{
+  "title": "随机之美：六幕组曲",
+  "composer": "Original procedural score generated for this film",
+  "bpm": 120,
+  "time_signature": "4/4",
+  "bars_per_shot": 9,
+  "duration_seconds": 756,
+  "sample_rate": 48000,
+  "channels": 2,
+  "six_acts": [
+    "偶然的微光",
+    "分布的形状",
+    "极限的交响",
+    "证据的尺度",
+    "行动的抉择",
+    "与不确定性同行"
+  ],
+  "peak": 0.5156669616699219,
+  "rms": 0.04164599892870039,
+  "global_gain": 1.3378184381880796,
+  "ducking_db": -8.873949984654255,
+  "random_seed": 20261005,
+  "source_method_inspiration": "Bemly/408 audio/make_music2.py; newly composed notes, harmony and arrangement; no external audio samples"
+}

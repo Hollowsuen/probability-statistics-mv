@@ -1,0 +1,20 @@
+{
+  "name": "the-beauty-of-chance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "poster": "node render.mjs poster --time 10",
+    "render": "node export.mjs",
+    "studio": "remotion studio remotion.tsx",
+    "render:remotion": "remotion render remotion.tsx RandomBeauty outputs/随机之美_Remotion.mp4 --codec=h264 --crf=18 --concurrency=4",
+    "render:frames": "node render.mjs render --out work/picture.mp4"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.1",
+    "@remotion/cli": "^4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.529"
+  }
+}
